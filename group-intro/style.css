@@ -93,6 +93,17 @@ footer {
   color: #777;
   font-size: 14px;
 }
+.btn-resume{
+  text-decoration: none;
+  display: inline-block;
+  padding:8px 16px;
+  border:1px solid #3548b8;
+  border-radius: 6px;
+}
+.btn-resume:hover{
+  background: #5267df;
+  color:#fff;
+}
 
 @media (max-width: 800px) {
   .member-list {
