@@ -45,6 +45,7 @@ main h2{
     font-size:52px;
     text-align: center;
     line-height: 140%;
+    padding: 0 70px;
 }
 main h2 em{
     font-style: normal;
