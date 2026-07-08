@@ -1,0 +1,86 @@
+/* 풀이 */
+*{margin: 0;,padding: 0;}
+h1,h2,h3,h4,h5,h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+.address{
+    font-style: inherit;
+}
+.ul,ol{
+    list-style: inherit;
+}
+
+a{color:inherit;text-decoration: inherit;}
+
+/* 공통 스타일 -> 공통적으로 적용되는 스타일을 설정 */
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',"Noto Sans KR",sans-serif;
+}
+.title{
+    font-family: "PulmuoneFont";
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+
+}
+
+/* 스타일 */
+.banner{
+    /* width: 1920; 자동으로 화면 넓이만큼 보여지게 하려면 지정을 안해야댐*/
+    height: 250px;
+    background: url(../img/sub_vis01_02.jpg) no-repeat 50% 50%  / cover;
+    margin-bottom: 50px;
+
+}
+main h1{
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: 500px;
+    background: url(../img/sub_tit_line.gif) repeat-x 0 50%;
+}
+/* 지속가능만큼 선이 없어지게 하는것은 지속가능 식생활만 인라인태그로 묶어서 배경을 흰색으로 깔아준다 (b나스트롱은 스타일이있으니 스타일이없이 묶어주는 span사용)*/
+/* 0 50% 은 중앙에 오는것 */
+/* 지속가능 옆 실선은 쪼개진 선 이미지라 선을 연결하면 됨 */
+/* 보통 그냥태그만 적는경우는 없다 ~ 안에있는~ 태그라고 특정해주는게 일반적 */
+main h1 span{
+    background-color: #fff;
+    padding-right: 20px;
+}
+main h2{
+    font-size: 52px;
+    text-align: center;
+    line-height: 140%;
+}
+/* 풀무원은‘바른먹거리로 사람과 지구의 건강한 내일을 만드는 기업’입니다. 부분을 센터로 하고 행간설정*/
+main h2 em{
+    font-style: normal;
+    color: #7eae4b;
+}
+/* 초록글씨부분을 em으로 설정하고  */
+.brand{
+    width: 810px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    box-sizing: border-box;
+    /* box-sizing: border-box; 을하면 패딩포함해서 넓이를 810으로 한다는 뜻 */
+    padding: 40px 90px 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.brand h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.brand h3+p{
+    margin-bottom: 30px;
+}
+/* h3+p 는 h3 바로다음에 오늘 p만 선택 한다는 뜻 */
+.brand p {
+    line-height: 140%;
+}
+/* 문단의 글들은 가독성을 위해서 행간을 넓힌다 */
