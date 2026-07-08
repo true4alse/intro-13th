@@ -1,0 +1,60 @@
+*{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-weight: inherit;font-size: inherit;}
+address{font-style: inherit;}
+ul,ol{list-style: inherit;}
+a{color: inherit;text-decoration: inherit;}
+html{
+    font-family: 'Pretendard', "Noto Sans KR", sans-serif;
+    font-size: 20px;
+}
+.title{
+    font-family: 'Pulmuone';
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner{
+    height:250px;
+    background:
+    url('../img/sub_vis01_02.jpg') no-repeat 50% 50% / cover;
+    margin-bottom: 50px;
+}
+main h1{
+    font-size: 30px;
+    font-weight: 500;
+    background: url('../img/sub_tit_line.gif') repeat-x 0 50%;
+    margin-bottom: 100px;
+}
+main h1 span{
+    background-color: white;
+    padding-right: 20px;
+}
+main h2{
+    margin-bottom: 50px;
+    padding: 0 70px;
+    font-size: 52px;
+    text-align: center;
+    line-height: 140%;
+}
+main h2 em{
+    font-style: normal;
+    color: #7eae4b;
+}
+.a{
+    width: 630px;
+    margin: 0 auto;
+    padding: 40px 90px 50px;
+    text-align: center;
+}
+main h3{
+    font-size: 35px;
+    word-break: keep-all;
+}
+.a>p:nth-of-type(1){
+    margin-top: 25px;
+}
+.a>p:nth-of-type(2){
+    margin-top: 30px;
+}
