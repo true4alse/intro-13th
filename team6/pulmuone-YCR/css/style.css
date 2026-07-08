@@ -1,0 +1,63 @@
+/* 기본 스타일 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard';
+    font-size: 20px;
+}
+/* 모든 요소들을 유연하게 만들어서 가운데로 정렬할 수 있도록 함 */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* 배너 주어진 예시사진에 맞춰서 크기 설정 가로로 긴 사진이니까 가로 사이즈만 설정하고 세로는 auto로 설정함 margin은 상하 0 좌우 auto로 줘서 가운데에 놓일 수 있도록 함 */
+.a{
+    width: 1920px;
+    height: 250px;
+    background: url(../img/sub_vis01_02.jpg) no-repeat 0 0 / 1920px auto;
+    margin: 0 auto;
+}
+.b .bar{
+    font-size: 30px;
+    display: inline;
+}
+.b{
+    width : 1200px;
+    height: 50px;
+    margin: 50px auto;
+    background: url(../img/sub_tit_line.gif) no-repeat 100% 35% / 1000px 2px;
+}
+h1.head{
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 70px;
+    font-size: 52px;
+    font-family: "풀무원";
+    text-align: center;
+}
+h1.head span{
+    color: rgb(111, 182, 111);
+    font-size: 52px;
+    font-family: "풀무원";
+    text-align: center;
+}
+.c{
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: rgba(180, 180, 180, 0.13);
+    margin: 0 auto;
+    padding: 40px 90px 50px 90px;
+}
+.c .h2{
+    font-size: 35px;
+    font-family: "풀무원";
+}
+.c .wrap1,.c .wrap2{
+    line-height: 1.4;
+}
+.c .wrap1{
+    margin: 25px 0px 30px 0px;
+}
