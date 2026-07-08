@@ -1,7 +1,10 @@
 @font-face {
-    font-family: "Pulmuone";
-    src: url("../font/Pulmuone.woff") format("woff");
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
 }
+
 @font-face {
     font-family: 'Pretendard';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
@@ -56,4 +59,8 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
     font-weight: 900;
     font-display: swap;
+}
+@font-face {
+    font-family: '풀무원';
+    src: url(../font/PulmuoneLOHASBold.woff);
 }
