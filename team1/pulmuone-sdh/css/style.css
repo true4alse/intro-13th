@@ -1,0 +1,80 @@
+*{
+    margin: 0px; padding: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+address{
+    font-style: inherit;
+}
+ul,ol{
+    list-style: inherit;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+/* 공통 스타일 -> 공통적으로 적용되는 스타일을 설정 */
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',"Noto Sans KR", sans-serif;
+}
+.title{
+    font-family: "PulmuoneLOHASBold";
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #333;
+}
+.banner{
+    height: 250px;
+    background: #fff url(../img/sub_vis01_02.jpg) no-repeat 50% 50% / cover;
+}
+main>h1{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    /* border: 1px solid #333; */
+    background: url(../img/sub_tit_line.gif) repeat-x 0 50%;
+    word-break: keep-all;
+    width: auto;
+    font-weight: 600;
+    font-size: 30px;
+    color: #333;
+}
+main h1 span{
+    background-color: #fff;
+    padding-right: 20px;
+}
+main h2.subtitle2{
+    margin-bottom: 30px;
+    font-size: 52px;
+    /* border: 1px solid #333; */
+    color: #333;
+    text-align: center;
+    line-height: 140%;
+    padding: 0 10px;
+}
+main h2 em{
+    font-style: normal;
+    color: #7eae4b;
+}
+main div.subtitle3{
+    max-width: 810px;
+    background-color: #f4f4f4;
+    padding: 40px 90px 50px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+main div.subtitle3>h3.expl-main{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+main div.subtitle3>p.explain{
+    width: auto;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 140%;
+}
