@@ -5,7 +5,7 @@ h1,h2,h3,h4,h5,h6
     font-weight: inherit;
     font-size: inherit;
 }
-
+z
 address{
     font-style: inherit;
 }
@@ -21,16 +21,19 @@ html{
 
 .title{
     font-family: '풀무원';
+    margin-bottom: 50px;
+    padding: 0 70px;
 }
 
 .banner{
-    border: 1px solid red;
     height: 250px;
     background: url(../img/img/sub_vis01_02.jpg) no-repeat 50% 50% / cover;
     margin-bottom: 50px;
 }
 
 main h1{
+    width: 1200px;
+    margin: auto;
     margin-bottom: 100px;
     font-size: 30px;
     font-weight: 500;
@@ -55,12 +58,13 @@ main h2 em{
 .brand  {
     width: 810px;
     margin:0 auto;
-    border: solid red;
+    background-color: rgb(244, 244, 244);
     box-sizing: border-box;
     padding: 40px 90px 50px;
     text-align: center; 
 }
 .brand h3{
+    font-family: "풀무원";
     font-size: 35px;
     margin-bottom: 25px;
 
@@ -70,5 +74,5 @@ main h2 em{
 }
 
 .brand p{
-    line-height: 140%;
+    line-height: 160%;
 }
